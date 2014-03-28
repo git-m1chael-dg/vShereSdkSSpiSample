@@ -51,7 +51,6 @@ namespace Mike.Vmware.Connect.Api
         /// <summary>
         /// </summary>
         /// <param name="serverEndPoint"></param>
-        /// <param name="connectToVCenter"></param>
         /// <param name="serviceSpn"></param>
         internal void ConnectBySspi(string serverEndPoint, string serviceSpn = null)
         {
