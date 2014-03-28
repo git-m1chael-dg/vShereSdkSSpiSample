@@ -13,7 +13,7 @@ namespace Mike.Vmware.Connect
             hostClient.ConnectBySspi("esxi001.mike.lab", hostSpn);
 
             var vSphereClient = new ClientConnection();
-            vSphereClient.ConnectBySspi("esxi001.mike.lab", "");
+            vSphereClient.ConnectBySspi("VC001.mike.lab", "");
         }
 
 
